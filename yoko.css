@@ -1,0 +1,81 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/dark-wood.jpg");
+    font-family: Georgia, Times, serif;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo img{
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    padding: 25px;
+  }
+.nav {
+    background: gray;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    color: black;
+}
+.section{
+    width: 700px;
+    float: left;
+    background: white;
+    padding: 20px 0px 20px 20px;
+}
+
+.aside {
+    width: 240px;
+    float: left;
+    background: whitesmoke;
+    height: 540px;
+    border-left: #749abe;
+    padding: 0px 0px 0px 20px;
+}
+.article_content {
+    float: right;
+    max-width: 50%;
+    flex: auto;
+    margin-top: -190px;
+}
+.article_img {
+    width: 297px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #bdbbbb;
+}
+.popular-recipies a{
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+    color: #de6581;
+    text-decoration: none;
+}
+.contact-details h2{
+    padding: 30px 0px 10px 0px;
+    color: #de6581;
+}
+.footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+    background: gray;
+}
+
